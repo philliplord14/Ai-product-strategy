@@ -4,6 +4,7 @@
 <!-- One sentence: what does this prototype demonstrate? -->
 Learner side of the proactive AI. Looking at their performance, skill gaps and goals to suggest which skills should be focussed on to develop or that they might want to add to their profile as they are key skills for their role/ goals
 Also exploring what skills and how close they match to other roles to progress their career removing the need for manual career mapping from central teams which are static and time consuming to build (6-9 months +)
+There are other use cases to include such as a manager and the L&D team
 
 ## Tool Used
 <!-- v0 / Cursor / Lovable / other -->
