@@ -1,15 +1,17 @@
-# Kill Switch Audit
-
-## Vendor Dependency Assessment
 
 | Dimension | Current State | Risk Level | 48-Hour Action |
 |-----------|--------------|------------|---------------|
+| **Provider** | | H / M / L | |
+| **Abstraction** | | H / M / L | |
+| **Routing** | | H / M / L | |
+| **Eval** | | H / M / L | |
 | **Provider** | Thrive | M |
 | **Abstraction** | M |
 | **Routing** | L |
 | **Eval** | L |
 
 ## Portability Score
+<!-- Ready / Partial / Locked -->
 <!-- Partial  -->
 
 ## If [primary vendor] doubles pricing tomorrow:
