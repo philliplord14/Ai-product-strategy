@@ -58,15 +58,21 @@ Now
 
 ### 2. Vertical Competitor
 **Attacker:**
+Start up content authoring tools most risk. We've made a strategic decision to not build this capabilty as it would be a 18-24 month investment to just get to where competitors are now and we have a partner solution to defend in RFPs or Renewal conversations
 **Vector:**
 **Time-to-threat:**
+Now - 12 months. Lots of these have spun up in the last 2 years and other platforms are building there own built in AI tools to convert PDFs to content or natural language prompts to content
 **% of value at risk:**
+10%
 
 ### 3. Adjacent Expansion
 **Attacker:**
+Workday or hibob
 **Vector:**
 **Time-to-threat:**
+12-18 months
 **% of value at risk:**
+They already have many duplicate features but focus more on the perforamnce and HRIS side of their product with a smaller learnign and skills offering which we hear poor feedback on in sales cycles all the time. If they invest in the learning and skills side though this would become a threat as a full stack learning, performance and HR platform
 
 ---
 
@@ -74,9 +80,17 @@ Now
 
 *Your partner played the Big Tech attacker. What was their plan to kill you?*
 
+Wasn't in the live session to complete this so made up what I think would have happened below
+
 **Attacker:**
+Thrive
 **Attack vector (target the weakest loop):**
+Domain
 **Weeks 1-4 - what they ship:**
+They enhance their basic individual 'goals' feature to expand to team goals or company goals giving them a more compelling 'performance' link to teach their AI and link learning and skills data
 **Weeks 5-8 - how they poach users:**
+Already a strong agent offering and NL chatbot (which we are in dev with) this gives them a marketing message to push hard on (from us) that vendors can't link performance and outcome data to learning and skill data
 **Weeks 9-12 - why users don't come back:**
+Unlikely for us given the sales and contract cycle however it could make heads turn for our top 50 ARR customers and 2027 renewals which is a large volume of ARR for us
 **Your defense:**
+We have 25 years of data to learn from not just the here and now. Our perfomance capbilty is much stronger not just a goal creator being able to link learning, skills to development activities, those activities to personal objectives and those to global gives a full connected story of how L&D activity impacted business outcomes which has never been possible, or VERY hard in the industy. Our AI will be able to give personalised outcome based suggestions on skills to uses, identifiers to managers based on insights and data reducing risk of attrition or peformance slips, and for L&D teams the first time ever a hyper focussed approach to solving a business problem and the skills needed - not thinking about creating more content or stagnant mapping of skills to a job role with no reason or benefits other than knowing what skills thaat job needs
