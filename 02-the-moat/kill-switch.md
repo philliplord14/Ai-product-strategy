@@ -20,7 +20,7 @@ No response immediatly as its too woven in to all our AI product features. Strat
 Performance and specific recommondations vs generic industry wide data. No context of specific goals the company is trying to achieve (although this could be added) however not on a user by user or team level making it hard to switch
 
 
-HAVE DONE THE ABOVE IN A FORMATE I COULD WORK WITH AS COULD MAKE THE TABLES FORAMTE CORRECTLY 
+HAVE DONE THE ABOVE IN A FORMATE I COULD WORK WITH AS COULD MAKE THE TABLES FORAMTE CORRECTLY - SEE BELOW
 
 **Provider dependency & portability risk**
 How exposed is K.i Pro if Azure OpenAI changes pricing, ships a competing product, or becomes unreliable — and what needs to change before that becomes a crisis.	PORTABILITY SCORE
@@ -28,27 +28,27 @@ How exposed is K.i Pro if Azure OpenAI changes pricing, ships a competing produc
 Current state — **must improve**
 before Phase 1 ships
 
-DIMENSION ASSESSMENT
+**DIMENSION ASSESSMENT**
 
-Provider   Azure OpenAI            ◆ Medium risk
+**Provider   Azure OpenAI  **          ◆ Medium risk
 CURRENT STATE
 Stable. Azure OpenAI is the confirmed AI backbone powering all K.i features today. No immediate instability — but single-provider dependency creates exposure if pricing, reliability or competitive positioning shifts.
 48-HOUR ACTION
 Review backup providers already identified. For each K.i feature — chatbot, skills gap analysis, nudges, SMART objectives — confirm whether Anthropic Claude or Google Gemini can produce equivalent output quality. Document gaps per feature and flag any where an alternative cannot match output fidelity.
 
-Abstraction   Provider-agnostic layer            ▲ High risk
+**Abstraction   Provider-agnostic layer  **          ▲ High risk
 CURRENT STATE
 Likely low. K.i features are assumed to be tightly coupled directly to Azure OpenAI endpoints with no provider-agnostic abstraction layer in place in the architecture.
 48-HOUR ACTION
 Audit the codebase: are model calls made directly to Azure OpenAI endpoints or routed through a wrapper? If direct, abstraction is the single highest-priority build task before further investment. A thin LLM abstraction layer (e.g. LangChain or a custom adapter) makes every other row on this table solvable — and is a 2-4 week engineering task.
 
-Routing   Model selection logic            ▲ High risk
+**Routing   Model selection logic **           ▲ High risk
 CURRENT STATE
 Not in place. All K.i features route to a single model with no intelligent selection logic — overbuying on capability for simpler tasks and creating significant cost exposure at scale.
 48-HOUR ACTION
 Design a routing spec: proactive nudges, skills gap analysis and performance recommendations need GPT-4 class capability. Simple chatbot Q&A and content search can route to a smaller, cheaper model. Routing reduces cost, increases resilience, and is essential if K.i Pro is to be profitably priced at scale.
 
-Eval Output quality framework            ▲ High risk
+**Eval Output quality framework**            ▲ High risk
 CURRENT STATE
 Not established. No formal eval framework exists for K.i Pro outputs — no baseline for nudge accuracy, skills recommendation relevance, hallucination rate or consistency across model versions.
 48-HOUR ACTION
