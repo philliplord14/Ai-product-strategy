@@ -46,7 +46,7 @@ Audit the codebase: are there drifts, abstaction, bias or hullicination suddentl
 
 **Routing   Model selection logic **           ▲ High risk
 CURRENT STATE
-Not in place. All K.i features route to a single model with no intelligent selection logic — overbuying on capability for simpler tasks and creating significant cost exposure at scale.
+Not in place. All K.i basic features route to a single model with no intelligent selection logic — It drives simpler tasks and creating significant cost exposure at scale which are unknown on tocken costs.
 48-HOUR ACTION
 Design a routing spec: proactive nudges, skills gap analysis and performance recommendations need GPT-4 class capability. Simple chatbot Q&A and content search can route to a smaller, cheaper model. Routing reduces cost, increases resilience, and is essential if K.i Pro is to be profitably priced at scale.
 
