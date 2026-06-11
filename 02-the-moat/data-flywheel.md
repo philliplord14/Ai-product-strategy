@@ -50,6 +50,11 @@ Without this strategy and leveraging more user data we risk being just a generic
 **Attacker:**
 Claude or co-pilot - Also Thrive who have a large AI marketing talk track and agents which covers part of our strategy but not able to link performance data
 Claude or co-pilot are a threat as people use these more and want to connect our data to them vs using our product. Bring the intelligence and learning to them where they are vs another platform
+
+Docebo has repositioned as "closing the loop between skills intelligence and learning execution" following their acquisition of 365Talents — they are explicitly building the same closed-loop narrative as K.i Pro, with acquisition-backed depth
+
+Thrive's Spring 2026 release made Kiki fully agentic — it now monitors completion rates, engagement trends, compliance gaps and skills development autonomously, flagging risks before they become problems — and it's included at no extra cost. This is the most direct competitor to K.i Pro Pillar 3, live right now. Thrive Learning
+Zensai launched its Human Success Agent in May 2026 on Microsoft Agent 365, enabling enterprises to turn workforce data into real-time actionable insights embedded directly into Microsoft 365. For any Kallidus customer on M365, Zensai can offer near-identical intelligence without leaving their existing tools. That's a structural problem.
 **Vector:**
 **Time-to-threat:**
 Now
@@ -73,6 +78,9 @@ Workday or hibob
 12-18 months
 **% of value at risk:**
 They already have many duplicate features but focus more on the perforamnce and HRIS side of their product with a smaller learnign and skills offering which we hear poor feedback on in sales cycles all the time. If they invest in the learning and skills side though this would become a threat as a full stack learning, performance and HR platform
+
+
+<img width="1159" height="880" alt="image" src="https://github.com/user-attachments/assets/e4daf945-2e00-4b0e-b585-3542e0078ee7" />
 
 ---
 
