@@ -2,6 +2,9 @@
 
 > Score each loop 1-5. Your weakest loop is where competitors attack first.
 > The four loops below are the M2 starting point - adapt if your product has 2 or 6 loops instead of 4.
+>
+> <img width="1186" height="541" alt="image" src="https://github.com/user-attachments/assets/9e3d69a6-baa0-4e85-b4a5-b8c892559fa1" />
+
 
 ## Flywheel Loops
 
