@@ -42,7 +42,7 @@ Review backup providers already identified. For each K.i feature — chatbot, sk
 CURRENT STATE
 Likely low. K.i features are assumed to be tightly coupled directly to Azure OpenAI endpoints with no provider-agnostic abstraction layer in place in the architecture.
 48-HOUR ACTION
-Audit the codebase: are model calls made directly to Azure OpenAI endpoints or routed through a wrapper? If direct, abstraction is the single highest-priority build task before further investment. A thin LLM abstraction layer (e.g. LangChain or a custom adapter) makes every other row on this table solvable — and is a 2-4 week engineering task.
+Audit the codebase: are there drifts, abstaction, bias or hullicination suddently appearing
 
 **Routing   Model selection logic **           ▲ High risk
 CURRENT STATE
@@ -71,5 +71,4 @@ Zensai's deep Microsoft 365 and Azure Copilot integration means this scenario is
 The portability score is LOW today — but this is fixable before it matters.
 K.i Pro is early enough in build that abstraction and routing can be added without major rework. The risk is completing 12+ months of feature build on unabstracted Azure OpenAI dependencies and then facing a price increase or competitive move with no fast exit route. Abstraction is a 2-4 week engineering task. Without it, every row above stays High risk.
 
-K.i Pro — AI Provider Risk Assessment     |     June 2026     |     Internal document — not for external distribution
 
