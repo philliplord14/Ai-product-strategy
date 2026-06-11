@@ -72,6 +72,9 @@ Now - 12 months. Lots of these have spun up in the last 2 years and other platfo
 **% of value at risk:**
 10%
 
+<img width="1147" height="826" alt="image" src="https://github.com/user-attachments/assets/0ad68e17-56c7-41b0-9930-6baf6cb84488" />
+
+
 ### 3. Adjacent Expansion
 **Attacker:**
 Workday or hibob
