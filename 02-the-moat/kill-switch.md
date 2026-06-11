@@ -22,7 +22,7 @@ Performance and specific recommondations vs generic industry wide data. No conte
 ________________________________________________________________________________________________
 
 
-_HAVE DONE THE ABOVE IN A FORMATE I COULD WORK WITH AS COULD MAKE THE TABLES FORAMTE CORRECTLY - SEE BELOW_
+_HAVE DONE THE ABOVE IN A FORMATE I COULDNT WORK WITH AS COULD MAKE THE TABLES FORAMTE CORRECTLY - SEE BELOW_
 
 **Provider dependency & portability risk**
 How exposed is K.i Pro if Azure OpenAI changes pricing, ships a competing product, or becomes unreliable — and what needs to change before that becomes a crisis.	PORTABILITY SCORE
