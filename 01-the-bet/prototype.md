@@ -2,9 +2,7 @@
 
 ## What I Built
 <!-- One sentence: what does this prototype demonstrate? -->
-Learner side of the proactive AI. Looking at their performance, skill gaps and goals to suggest which skills should be focussed on to develop or that they might want to add to their profile as they are key skills for their role/ goals
-Also exploring what skills and how close they match to other roles to progress their career removing the need for manual career mapping from central teams which are static and time consuming to build (6-9 months +)
-There are other use cases to include such as a manager and the L&D team
+L&D strategy copilot - proactive AI. Taking learning, skills, developmetn activity, personal objectives, global objectives (tenant data) and mixing it with 25 years of the same data from previous customers like you, industry trends and sector knowledge to give proactive insight to drive L&D to be performance and outcome based stratgic teams and not cost centers trying to prove their ROI. The shift from reactive to proactive AI in L&D is a real market gap, and the framing of outcomes over activity is exactly what L&D buyers are under pressure to demonstrate.
 
 ## Tool Used
 <!-- v0 / Cursor / Lovable / other -->
