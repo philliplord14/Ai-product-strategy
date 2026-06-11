@@ -19,8 +19,10 @@ No response immediatly as its too woven in to all our AI product features. Strat
 <!-- What's defensible that they can't replicate? -->
 Performance and specific recommondations vs generic industry wide data. No context of specific goals the company is trying to achieve (although this could be added) however not on a user by user or team level making it hard to switch
 
+________________________________________________________________________________________________
 
-HAVE DONE THE ABOVE IN A FORMATE I COULD WORK WITH AS COULD MAKE THE TABLES FORAMTE CORRECTLY - SEE BELOW
+
+_HAVE DONE THE ABOVE IN A FORMATE I COULD WORK WITH AS COULD MAKE THE TABLES FORAMTE CORRECTLY - SEE BELOW_
 
 **Provider dependency & portability risk**
 How exposed is K.i Pro if Azure OpenAI changes pricing, ships a competing product, or becomes unreliable — and what needs to change before that becomes a crisis.	PORTABILITY SCORE
