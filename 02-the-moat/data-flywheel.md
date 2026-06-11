@@ -56,6 +56,8 @@ Docebo has repositioned as "closing the loop between skills intelligence and lea
 Thrive's Spring 2026 release made Kiki fully agentic — it now monitors completion rates, engagement trends, compliance gaps and skills development autonomously, flagging risks before they become problems — and it's included at no extra cost. This is the most direct competitor to K.i Pro Pillar 3, live right now. Thrive Learning
 Zensai launched its Human Success Agent in May 2026 on Microsoft Agent 365, enabling enterprises to turn workforce data into real-time actionable insights embedded directly into Microsoft 365. For any Kallidus customer on M365, Zensai can offer near-identical intelligence without leaving their existing tools. That's a structural problem.
 **Vector:**
+<img width="1135" height="613" alt="image" src="https://github.com/user-attachments/assets/8985d39b-a943-4f75-9580-76a265fa2630" />
+
 **Time-to-threat:**
 Now
 **% of value at risk:**
@@ -102,3 +104,6 @@ Already a strong agent offering and NL chatbot (which we are in dev with) this g
 Unlikely for us given the sales and contract cycle however it could make heads turn for our top 50 ARR customers and 2027 renewals which is a large volume of ARR for us
 **Your defense:**
 We have 25 years of data to learn from not just the here and now. Our perfomance capbilty is much stronger not just a goal creator being able to link learning, skills to development activities, those activities to personal objectives and those to global gives a full connected story of how L&D activity impacted business outcomes which has never been possible, or VERY hard in the industy. Our AI will be able to give personalised outcome based suggestions on skills to uses, identifiers to managers based on insights and data reducing risk of attrition or peformance slips, and for L&D teams the first time ever a hyper focussed approach to solving a business problem and the skills needed - not thinking about creating more content or stagnant mapping of skills to a job role with no reason or benefits other than knowing what skills thaat job needs
+
+<img width="716" height="383" alt="image" src="https://github.com/user-attachments/assets/44cf9657-c87c-4290-8164-71252d404414" />
+
