@@ -68,7 +68,7 @@ Now
 
 ### 2. Vertical Competitor
 **Attacker:**
-Start up content authoring tools high risk. We've made a strategic decision to not build this capabilty as it would be a 18-24 month investment to just get to where competitors are now and we have a partner solution to defend in RFPs or Renewal conversations. But other veticals are coming such as claude, MS viva, MCps 
+Start up content authoring tools high risk. We've made a strategic decision to not build this capabilty as it would be a 18-24 month investment to just get to where competitors are now and we have a partner solution to defend in RFPs or Renewal conversations. But other veticals are coming such as claude, MS viva, MCps or HRIS systems enhancing their learning/ skills offering as they already have perfomance data
 **Vector:**
 **Time-to-threat:**
 Now - 12 months. Lots of these have spun up in the last 2 years and other platforms are building there own built in AI tools to convert PDFs to content or natural language prompts to content
