@@ -10,18 +10,37 @@
 | 5 | 1-2-1 conversation notes reference a skill the employee wants to develop; no existing learning pathway covers it | K.i Pro identifies the gap, confirms no current content match, and suggests playlist creation or flags to L&D admin as a content gap | N | LLM |
 
 
-**Adversarial rows included:** __
-**Coverage gaps identified by partner:**
-
 ## Confidence UX Design
 
-**Approach:** show uncertainty / tiered confidence / human-in-loop trigger
+**Approach:** Tiered confidence with visible evidence panel and a human-in-loop trigger — 
+K.i Pro shows users how certain it is and why, and always preserves the ability to override, 
+dismiss or escalate. Priority ordering is shown but confidence in that ordering is surfaced 
+explicitly so users are not misled by rank position alone.
 
-**High confidence (>90%):**
-**Medium confidence (70-90%):**
-**Low confidence (<70%):**
+**High confidence (>90%):** Full recommendation shown with supporting evidence — which data 
+points drove the output (e.g. "Based on 3 missed deadlines and a skill gap in X"). 
+Priority order displayed as ranked list. User can approve, edit, dismiss or snooze. 
+No friction added — the UI trusts the output and presents it clearly.
 
-**User control surface:**
+**Medium confidence (70-90%):** Recommendation shown with hedged language — 
+"This may be worth exploring" rather than "You should do this". Evidence panel visible 
+but flagged as partial. Priority order shown with a confidence indicator per item 
+(e.g. a subtle visual signal that rank 1 is more certain than rank 3). 
+User prompted to confirm before any action is taken on their behalf.
+
+**Low confidence (<70%):** Recommendation withheld or shown as a question rather than 
+a statement — "We noticed X, is this something you'd like to explore?". 
+Priority order not shown — insufficient signal to rank meaningfully. 
+Human-in-loop trigger fires: output is routed to a review state or escalated to 
+the L&D admin / manager to make the call. No automated action taken.
+
+**User control surface:** 
+- Approve / edit / dismiss on every output regardless of confidence tier
+- "Why did I get this?" — expandable evidence panel showing the data signals behind the recommendation
+- Snooze — defer a nudge without dismissing it, preserving the signal for future use
+- "This isn't right" — explicit feedback trigger that feeds directly into the correction loop
+- Priority order override — user can manually reorder recommendations; 
+  their choice is captured as a preference signal
 
 ## Reliability Contract
 
