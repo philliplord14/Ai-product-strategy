@@ -12,17 +12,17 @@
 
 ## Confidence UX Design
 
-**Approach:** Tiered confidence with visible evidence panel and a human-in-loop trigger — 
+**Approach:** Tiered confidence with visible evidence panel and a human-in-loop trigger - 
 K.i Pro shows users how certain it is and why, and always preserves the ability to override, 
 dismiss or escalate. Priority ordering is shown but confidence in that ordering is surfaced 
 explicitly so users are not misled by rank position alone.
 
-**High confidence (>90%):** Full recommendation shown with supporting evidence — which data 
+**High confidence (>90%):** Full recommendation shown with supporting evidence. Which data 
 points drove the output (e.g. "Based on 3 missed deadlines and a skill gap in X"). 
 Priority order displayed as ranked list. User can approve, edit, dismiss or snooze. 
 No friction added — the UI trusts the output and presents it clearly.
 
-**Medium confidence (70-90%):** Recommendation shown with hedged language — 
+**Medium confidence (70-90%):** Recommendation shown with hedged language.
 Evidence panel visible but flagged as partial. Priority order shown with a confidence indicator per item 
 (e.g. a subtle visual signal that rank 1 is more certain than rank 3). 
 User prompted to confirm before any action is taken on their behalf.
