@@ -23,8 +23,7 @@ Priority order displayed as ranked list. User can approve, edit, dismiss or snoo
 No friction added — the UI trusts the output and presents it clearly.
 
 **Medium confidence (70-90%):** Recommendation shown with hedged language — 
-"This may be worth exploring" rather than "You should do this". Evidence panel visible 
-but flagged as partial. Priority order shown with a confidence indicator per item 
+Evidence panel visible but flagged as partial. Priority order shown with a confidence indicator per item 
 (e.g. a subtle visual signal that rank 1 is more certain than rank 3). 
 User prompted to confirm before any action is taken on their behalf.
 
