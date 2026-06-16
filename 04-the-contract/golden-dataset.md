@@ -9,7 +9,6 @@
 | 4 | Manager's calendar data shows 6 direct reports each averaging 12+ meetings per week for 3 consecutive weeks | Risk signal flagged to manager dashboard with a suggested check-in prompt — framed as a signal to investigate, not a diagnosis | Y | LLM |
 | 5 | 1-2-1 conversation notes reference a skill the employee wants to develop; no existing learning pathway covers it | K.i Pro identifies the gap, confirms no current content match, and suggests playlist creation or flags to L&D admin as a content gap | N | LLM |
 
-Adversarial rows included: 2 (rows 3 and 4) Coverage gaps identified by partner:
 
 **Adversarial rows included:** __
 **Coverage gaps identified by partner:**
