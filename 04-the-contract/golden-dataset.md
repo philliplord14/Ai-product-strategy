@@ -28,7 +28,7 @@ Evidence panel visible but flagged as partial. Priority order shown with a confi
 User prompted to confirm before any action is taken on their behalf.
 
 **Low confidence (<70%):** Recommendation withheld or shown as a question rather than 
-a statement — "We noticed X, is this something you'd like to explore?". 
+a statement - "We noticed X, is this something you'd like to explore?". 
 Priority order not shown — insufficient signal to rank meaningfully. 
 Human-in-loop trigger fires: output is routed to a review state or escalated to 
 the L&D admin / manager to make the call. No automated action taken.
@@ -36,9 +36,9 @@ the L&D admin / manager to make the call. No automated action taken.
 **User control surface:** 
 - Approve / edit / dismiss on every output regardless of confidence tier
 - "Why did I get this?" — expandable evidence panel showing the data signals behind the recommendation
-- Snooze — defer a nudge without dismissing it, preserving the signal for future use
-- "This isn't right" — explicit feedback trigger that feeds directly into the correction loop
-- Priority order override — user can manually reorder recommendations; 
+- Snooze option to defer a nudge without dismissing it, preserving the signal for future use
+- "This isn't right". explicit feedback trigger that feeds directly into the correction loop
+- Priority order override where a user can manually reorder recommendations; 
   their choice is captured as a preference signal
 
 ## Reliability Contract
