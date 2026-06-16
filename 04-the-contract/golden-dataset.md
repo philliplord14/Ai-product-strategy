@@ -41,7 +41,7 @@ the L&D admin / manager to make the call. No automated action taken.
 - Priority order override where a user can manually reorder recommendations; 
   their choice is captured as a preference signal
 
-## Reliability Contract
+
 
 ## Reliability Contract
 
@@ -52,7 +52,7 @@ the L&D admin / manager to make the call. No automated action taken.
 | Latency (p95) | ≤ 3 seconds for nudge and insight outputs | 95th percentile response time measured in staging and production | > 5 seconds triggers engineering review — impacts trust in real-time use cases. However technical implentation could mitigate this metric through pre vectorised data |
 | Drift velocity | No regression beyond 5% accuracy drop month-on-month | Monthly automated re-run of full golden dataset; delta tracked against baseline | > 5% drop vs. prior month triggers model review and pauses new feature releases and also heavily monitoring customer feedback on accuracy of suggestions, nudges and action taken |
 
-## HITL Architecture
+
 ## HITL Architecture
 
 High level so you can drop into your architecture section / deck.
