@@ -43,12 +43,14 @@ the L&D admin / manager to make the call. No automated action taken.
 
 ## Reliability Contract
 
+## Reliability Contract
+
 | Metric | Target | Measurement | Alert Threshold |
 |--------|--------|-------------|-----------------|
-| Accuracy | | | |
-| Hallucination rate | | | |
-| Latency (p95) | | | |
-| Drift velocity | | | |
+| Accuracy | ≥ 90% of outputs match expected output in golden dataset | LLM judge + rule-based tests run on golden dataset after each model change | < 85% triggers immediate review before any release |
+| Hallucination rate | 0% on empty or insufficient data profiles | Adversarial test rows (rows 3 and 4 of golden dataset) run on every build | Any hallucination on a null profile is an automatic release block |
+| Latency (p95) | ≤ 3 seconds for nudge and insight outputs | 95th percentile response time measured in staging and production | > 5 seconds triggers engineering review — impacts trust in real-time use cases. However technical implentation could mitigate this metric through pre vectorised data |
+| Drift velocity | No regression beyond 5% accuracy drop month-on-month | Monthly automated re-run of full golden dataset; delta tracked against baseline | > 5% drop vs. prior month triggers model review and pauses new feature releases and also heavily monitoring customer feedback on accuracy of suggestions, nudges and action taken |
 
 ## HITL Architecture
 <!-- When does a human step in? What's the escalation path? -->
