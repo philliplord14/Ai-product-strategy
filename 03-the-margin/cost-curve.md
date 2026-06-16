@@ -9,7 +9,7 @@
 
 | Cost Category | Per-User/Month | Notes |
 |---|---|---|
-| Inference (primary model) | [TBC] | Azure OpenAI. Token consumption at production scale is unknown. Early spike test: ~£2.30 over 3 days for skill recommendations. Engineering to model at expected user volumes. |
+| Inference (primary model) | [TBC] | Azure OpenAI. Token consumption at production scale is unknown. Early spike test: ~£2.30 over 3 days for skill recommendations however this was an intense prompt, output and AI evals included. Engineering to model at expected user volumes.Based on current costs it will be small however it is TBD whether the recommondations and nudges recur daily, weekly or monthly which will impact costs. Costs and infra costs are being considered as part of this decision|
 | Inference (cascading/triage) | [TBC] | Cascading to a cheaper triage model before hitting the frontier model will reduce cost significantly. Routing rule needs defining first. |
 | Infrastructure | [est. £0.05–0.15] | Azure hosting on existing Kallidus infrastructure. Not greenfield — relatively low incremental cost. |
 | Data/storage | [est. £0.02–0.08] | 25-year dataset is existing. Incremental cost covers live data processing and logging. Data scientist to confirm. |
