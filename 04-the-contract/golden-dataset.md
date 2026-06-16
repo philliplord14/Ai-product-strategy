@@ -53,7 +53,33 @@ the L&D admin / manager to make the call. No automated action taken.
 | Drift velocity | No regression beyond 5% accuracy drop month-on-month | Monthly automated re-run of full golden dataset; delta tracked against baseline | > 5% drop vs. prior month triggers model review and pauses new feature releases and also heavily monitoring customer feedback on accuracy of suggestions, nudges and action taken |
 
 ## HITL Architecture
-<!-- When does a human step in? What's the escalation path? -->
+## HITL Architecture
+
+High level so you can drop into your architecture section / deck.
+
+**Pre-send review:** For all customer-facing nudges and insights, K.i Pro outputs a 
+recommendation and the user (learner, manager or L&D admin) must approve or dismiss 
+before any action is executed - at least in early rollout / high-risk segments 
+(burnout signals, performance risk, compliance flags).
+
+**Escalation path:** If confidence is <70% or a sensitive/policy-violating output 
+is detected, the system routes to:
+- Queue, draft, and flag as "AI escalation" with original data evidence links 
+  showing which signals drove the output
+
+
+**Feedback capture:** Every "This isn't right" trigger or dismissed output:
+- Creates a labelled sample with the original input, output and rejection signal
+- Feeds back into the golden dataset backlog for future evaluation runs
+- Dismissal type is preserved such as snooze / dismiss / reject treated as 
+  different weighted signals
+
+**Override controls:** Admin UI to:
+- Disable K.i Pro nudges for specific user groups, teams or regions
+- Lock out automated actions (e.g. calendar booking, playlist creation) 
+  from executing without explicit user approval
+- Pause specific feature outputs if a reliability threshold is breached 
+  — without taking the whole system offline
 
 ## Red-Team Findings
 *What failure mode did your partner find that you missed?*
