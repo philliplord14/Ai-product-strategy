@@ -30,10 +30,8 @@ checks with a continuous feedback-to-training loop. Define minimum signal
 volume before a model update is applied. Target: correction loop score 
 moves from 3/5 to 4/5 by Q2 FY27.
 
-## Context Connectivity
-<!-- How does knowledge flow across teams and domains? Where does it silo? -->
 
-## Governance Policy
+
 ## Governance Policy
 
 **Scope:** All K.i Pro AI features that generate customer-facing outputs — 
