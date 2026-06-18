@@ -120,11 +120,11 @@ across all confidence tiers.
 
 | Tool | Owner | Risk Level | Decision |
 |------|-------|------------|----------|
-| ChatGPT / Claude — L&D teams pasting in employee skill data and performance reviews to generate development plans | L&D Admins | H | kill — sensitive performance data leaving the platform into a public LLM; K.i Pro's L&D Strategy feature absorbs this natively with the data advantage |
-| ChatGPT — managers pasting in 1-2-1 notes to get suggested follow-up actions and talking points | Managers | H | kill — K.i Pro's 1-2-1 intelligence feature directly replaces this; unacceptable risk of personal performance data in a public model |
-| Excel / manual spreadsheets — L&D teams building their own skill gap trackers because platform reporting isn't surfacing the right view | L&D Admins | M | keep — low risk, no data leaving platform; monitor until Phase 5 admin insight and natural language reporting absorbs it |
+| ChatGPT / Claude — L&D teams pasting in employee skill data and performance reviews to generate development plans | L&D Admins | H | kill — sensitive performance data leaving the platform or being added into a public LLM is typically not aloud under their data policy and use of data; K.i Pro's L&D Strategy feature absorbs this natively with the data advantage and works within the allowed boundries of data use |
+| ChatGPT — managers pasting in 1-2-1 notes to get suggested follow-up actions and talking points | Managers | H | kill — K.i Pro's 1-2-1 intelligence feature directly replaces this and also as above it is not permitted in most companies to add PII in to public modals; unacceptable risk of personal performance data in a public model |
+| Excel / manual spreadsheets — L&D teams building their own skill gap trackers because platform reporting isn't surfacing the right view | L&D Admins | M | kill — is is not a sustainable or scalable way for organisation to manage skills gap or performance data in a connected way |
 | Zapier / Make — customers automating compliance reminder emails outside the platform because nudging isn't proactive enough | L&D Admins | M | govern — formalise as a supported integration until native calendar and nudge automation ships; document data flow and auth |
-| Microsoft Copilot / Viva Insights — managers using Copilot to surface team wellbeing and workload signals because K.i Pro burnout signals aren't live yet | Managers | H | govern — structural threat confirmed in encroachment assessment; define MCP strategy and accelerate native burnout signal feature |
+| Microsoft Copilot / Viva Insights — managers using Copilot to query content and data sources through an MCP | Managers & Learners | H | govern — structural threat confirmed in encroachment assessment; define MCP strategy and accelerate native burnout signal feature |
 
 **Total tools found:** 5  
 **Tools after triage:** 3 (kill: 2 / govern: 2 / keep: 1)  
