@@ -1,14 +1,3 @@
-# Compounding System Design
-
-## Feedback Loops
-
-## Compounding System Design
-
-### Feedback Loops
-
-## Compounding System Design
-
-### Feedback Loops
 
 ## Compounding System Design
 
