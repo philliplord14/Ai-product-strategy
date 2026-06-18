@@ -1,8 +1,14 @@
 # The Prototype Bet
 
 ## What I Built
+
 <!-- One sentence: what does this prototype demonstrate? -->
-L&D strategy copilot - proactive AI. Taking learning, skills, developmetn activity, personal objectives, global objectives (tenant data) and mixing it with 25 years of the same data from previous customers like you, industry trends and sector knowledge to give proactive insight to drive L&D to be performance and outcome based stratgic teams and not cost centers trying to prove their ROI. The shift from reactive to proactive AI in L&D is a real market gap, and the framing of outcomes over activity is exactly what L&D buyers are under pressure to demonstrate.
+
+K.i Pro's L&D Strategy Copilot — a proactive AI that takes a 
+business or performance problem in natural language and returns 
+a prioritised strategy of skills, employees and actions, powered 
+by live organisational data and 25 years of Kallidus proprietary 
+performance and outcomes data.
 
 ## Tool Used
 <!-- v0 / Cursor / Lovable / other -->
