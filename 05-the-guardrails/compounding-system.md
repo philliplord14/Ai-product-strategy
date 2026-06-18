@@ -114,7 +114,6 @@ across all confidence tiers.
 - Human-in-loop approval sits between orchestrator and any 
   customer-facing output regardless of which agent generated it
 
-## Shadow AI Audit
 
 ## Shadow AI Audit
 
@@ -128,7 +127,4 @@ across all confidence tiers.
 
 **Total tools found:** 5  
 **Tools after triage:** 3 (kill: 3 / govern: 2 / keep: o)  
-**Estimated hidden spend:** unknown — recommend CX team surveys 
-top 50 ARR customers to quantify external AI tool spend as a 
-direct input to K.i Pro pricing model and urgency case for 
-Phase 1 acceleration
+
