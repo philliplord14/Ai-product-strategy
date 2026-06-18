@@ -89,8 +89,6 @@ across all confidence tiers.
   launch 
 
 ## Agent Topology
-<!-- If using agents: what can each agent do? What can't it do? Who approves what? -->
-## Agent Topology
 
 <!-- If using agents: what can each agent do? What can't it do? Who approves what? -->
 
