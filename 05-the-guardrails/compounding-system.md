@@ -116,12 +116,19 @@ across all confidence tiers.
 
 ## Shadow AI Audit
 
-| Tool | Owner | Risk Level | Decision |
-|------|-------|-----------|----------|
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
+## Shadow AI Audit
 
-**Total tools found:**
-**Tools after triage:**
-**Estimated hidden spend:**
+| Tool | Owner | Risk Level | Decision |
+|------|-------|------------|----------|
+| ChatGPT / Claude — L&D teams pasting in employee skill data and performance reviews to generate development plans | L&D Admins | H | kill — sensitive performance data leaving the platform into a public LLM; K.i Pro's L&D Strategy feature absorbs this natively with the data advantage |
+| ChatGPT — managers pasting in 1-2-1 notes to get suggested follow-up actions and talking points | Managers | H | kill — K.i Pro's 1-2-1 intelligence feature directly replaces this; unacceptable risk of personal performance data in a public model |
+| Excel / manual spreadsheets — L&D teams building their own skill gap trackers because platform reporting isn't surfacing the right view | L&D Admins | M | keep — low risk, no data leaving platform; monitor until Phase 5 admin insight and natural language reporting absorbs it |
+| Zapier / Make — customers automating compliance reminder emails outside the platform because nudging isn't proactive enough | L&D Admins | M | govern — formalise as a supported integration until native calendar and nudge automation ships; document data flow and auth |
+| Microsoft Copilot / Viva Insights — managers using Copilot to surface team wellbeing and workload signals because K.i Pro burnout signals aren't live yet | Managers | H | govern — structural threat confirmed in encroachment assessment; define MCP strategy and accelerate native burnout signal feature |
+
+**Total tools found:** 5  
+**Tools after triage:** 3 (kill: 2 / govern: 2 / keep: 1)  
+**Estimated hidden spend:** unknown — recommend CX team surveys 
+top 50 ARR customers to quantify external AI tool spend as a 
+direct input to K.i Pro pricing model and urgency case for 
+Phase 1 acceleration
