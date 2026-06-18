@@ -6,6 +6,10 @@
 
 ### Feedback Loops
 
+## Compounding System Design
+
+### Feedback Loops
+
 | Loop | Input | Output | Compounds? | Status |
 |------|-------|--------|------------|--------|
 | **Recursive Learning** — outputs and corrections feed the model | K.i Pro config data (sector, business goals, target skills) + chatbot and strategy builder intent signals (repeated queries, reformulated questions, dismissed outputs) + individual skill levels, objectives and accepted/rejected recommendations over time | Sector-specific model improvements; better strategy builder outputs for similar organisations; more accurate nudge timing and content per individual | Y | broken (intent signals captured via dismissal and feedback triggers but not yet fed back into model training — manual monthly checks only, no automated retraining pipeline) |
@@ -19,9 +23,6 @@ golden dataset failures as labelled samples. Replace monthly manual drift
 checks with a continuous feedback-to-training loop. Define minimum signal 
 volume before a model update is applied. Target: correction loop score 
 moves from 3/5 to 4/5 by Q2 FY27.
-
-**Broken loop identified by partner:**
-**Fix plan:**
 
 ## Context Connectivity
 <!-- How does knowledge flow across teams and domains? Where does it silo? -->
