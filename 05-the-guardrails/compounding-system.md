@@ -34,12 +34,72 @@ moves from 3/5 to 4/5 by Q2 FY27.
 <!-- How does knowledge flow across teams and domains? Where does it silo? -->
 
 ## Governance Policy
+## Governance Policy
 
-**Scope:**
+**Scope:** All K.i Pro AI features that generate customer-facing outputs — 
+including nudges, recommendations, risk signals, strategy builder outputs 
+and chatbot responses. Covers both automated and human-reviewed outputs 
+across all confidence tiers.
+
 **Autonomy boundaries:**
+- High confidence (>90%): output surfaces to user; human approves before 
+  any action executes (calendar booking, playlist creation)
+- Medium confidence (70–90%): output surfaces with hedged language; 
+  user must confirm before proceeding
+- Low confidence (<70%): output withheld; routed to human review queue — 
+  no customer-facing output generated autonomously
+- Sensitive signals (burnout, performance risk): always human-in-loop 
+  regardless of confidence score — framed as a prompt, never a conclusion
+- Green light / red light governance model: low-risk, low-data features 
+  follow a fast-track green light process; features involving sensitive 
+  data, new inference types or high autonomy require full governance board 
+  review — not every feature goes through the full process
+
 **Escalation triggers:**
+- User feedback: if ≥ 20% of outputs for a given feature receive a 
+  thumbs-down or "This isn't right" signal within a 7-day rolling window, 
+  that feature is flagged for immediate review and new outputs are paused 
+  pending assessment
+- Token spike: if daily token consumption exceeds 3x the rolling 7-day 
+  average, an alert fires to engineering — indicates either a runaway 
+  process, a prompt injection attempt, or unexpected usage surge
+- Latency / timeout: if p95 response time exceeds 5 seconds or a feature 
+  failure rate (timeout / no response) exceeds 2% of requests in a 24-hour 
+  period, an alert fires and the feature is flagged for review
+- Hallucination detection: any confirmed hallucination on a null or 
+  insufficient data profile triggers an immediate feature pause — 
+  not managed silently, escalated to engineering same day
+- Reliability contract breach: if accuracy drops >5% vs. prior month 
+  baseline on the golden dataset re-run, new releases are paused until 
+  root cause is identified
+
 **Audit cadence:**
-**Regulatory exposure (EU AI Act / other):**
+- Golden dataset re-run: every model change and every new feature release
+- Manual eval scoring: ongoing — outputs reviewed against "what good looks 
+  like" rubric; two AI models score independently on the same scale without 
+  seeing manual scores to prevent bias; scores reconciled and deltas reviewed
+- Drift check: currently monthly manual — target is automated continuous 
+  monitoring with threshold alerts by Q2 FY27
+- Governance board review: quarterly for all active features; full review 
+  required for any feature touching new data types, new inference patterns 
+  or increased autonomy
+- Feedback loop review: weekly dashboard review of thumbs-down rate, 
+  dismissal type breakdown and intent signal patterns from chatbot and 
+  strategy builder
+
+**Regulatory exposure:**
+- EU AI Act: K.i Pro features that inform employment decisions 
+  (performance risk signals, skill gap assessments, compliance flags) 
+  are classified as high-risk under the Act — human-in-loop requirements, 
+  transparency obligations and audit trail requirements apply
+- GDPR: all outputs derived from personal data require a lawful basis; 
+  the 25-year proprietary dataset is non-PII but live organisational data 
+  processing requires documented data agreements with each customer
+- AI governance board to formally sign off on EU AI Act compliance 
+  classification for each K.i Pro feature before commercial release — 
+  this is a hard gate, not advisory
+- Target: full regulatory review completed before Phase 1 commercial 
+  launch (Q2 FY27)
 
 ## Agent Topology
 <!-- If using agents: what can each agent do? What can't it do? Who approves what? -->
