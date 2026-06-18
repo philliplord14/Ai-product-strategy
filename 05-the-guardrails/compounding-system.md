@@ -90,6 +90,31 @@ across all confidence tiers.
 
 ## Agent Topology
 <!-- If using agents: what can each agent do? What can't it do? Who approves what? -->
+## Agent Topology
+
+<!-- If using agents: what can each agent do? What can't it do? Who approves what? -->
+
+**Output generation agent (current):**
+- Can: generate nudges, recommendations, risk signals, strategy builder 
+  outputs and chatbot responses based on live organisational data
+- Can't: execute any action autonomously — cannot book calendar slots, 
+  create playlists or send communications without explicit user approval
+- Who approves: user (learner / manager / L&D admin) approves before 
+  any action executes; low confidence outputs routed to human review queue
+
+**Eval agent — parallel, x2 (current):**
+- Can: score any output against the defined quality rubric independently
+- Can't: see each other's scores or the manual eval scores — bias prevention
+- Who approves: engineering and product review reconciled scores; 
+  deltas trigger a human decision on whether output meets the release bar
+
+**Target (FY27): Orchestrator + specialist agents**
+- Orchestrator routes inputs to the correct specialist agent 
+  (nudge / chatbot / strategy builder / compliance / admin insights)
+- Each specialist agent scoped to its domain only — cannot act 
+  outside its defined feature boundary
+- Human-in-loop approval sits between orchestrator and any 
+  customer-facing output regardless of which agent generated it
 
 ## Shadow AI Audit
 
