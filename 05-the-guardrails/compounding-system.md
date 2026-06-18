@@ -97,7 +97,7 @@ across all confidence tiers.
   classification for each K.i Pro feature before commercial release — 
   this is a hard gate, not advisory
 - Target: full regulatory review completed before Phase 1 commercial 
-  launch (Q2 FY27)
+  launch 
 
 ## Agent Topology
 <!-- If using agents: what can each agent do? What can't it do? Who approves what? -->
